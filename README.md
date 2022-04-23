@@ -1,6 +1,6 @@
 # Rick and Morty
 
-Projeto simples consumindo api do rick and morty utilizando o fetch do JavaScript
+Projeto simples consumindo api do rick and morty utilizando HTML e CSS e o fetch do JavaScript,
 
 
 # Links: 
