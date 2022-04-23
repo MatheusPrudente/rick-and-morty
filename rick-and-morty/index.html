@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick e Morthy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="./images/portal.png">
+</head>
+
+<body>
+    <section class="section-body">
+        <main>
+            <h1 class="text-center text-white-50 section-title mb-5">Characters</h1>
+            <div class="results-character">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-4" id="results-characters">
+                        <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="card-characters">
+                            <div class="card mb-3 card-characters">
+                                <div class="row row-cols-1 row-cols-md-2 g-0">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <img class="img-fluid rounded-start w-100 h-100" src="" style="background-size: cover; background-repeat: no-repeat;">
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <div class="card-body">
+                                            <h3 class="card-title" id="card-title">
+                                                <a id="title" class="text-light fw-bolder text-decoration-none" href="#"> Nome do Personagem</a>
+                                            </h3>
+                                            <h6 class="card-subtitle mb-2 text-light">
+                                            </h6>
+                                            <div>
+                                                <span class="text-white-50 d-block">Last known location:</span>
+                                                <a id="first-location" class="card-text text-decoration-none link-light" href=""> Primeira Localizacao do personagem</a>
+                                            </div>
+                                            <div>
+                                                <span class="text-white-50 d-block">First seen in:</span>
+                                                <a id="first-seen" class="card-text text-decoration-none link-light">primeira episodio visto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center text-white-50 section-title my-5">Locations</h1>
+            <div class="results-locations">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-4" id="results-locations">
+                        <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="card-locations">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title" id="card-title">
+                                        <a id="title" class="text-light fw-bolder text-decoration-none" href="#"> Nome do Personagem</a>
+                                    </h3>
+                                    <h6 class="card-subtitle mb-2 text-light">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center text-white-50 section-title my-5">Episodes</h1>
+            <div class="results-episodes">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-4" id="results-episodes">
+                        <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="card-episodes">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">
+                                        <a id="title" class="text-light fw-bolder text-decoration-none" href="#"> Nome do Personagem</a>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+<script src="scripts.js"></script>
+
+</html>

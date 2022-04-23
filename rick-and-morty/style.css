@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: rgb(255, 152, 0) !important;
+}
+
+.section-body {
+    background: rgb(36, 40, 47);
+}
+
+.card, .card-characters {
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+}
+
+.card-characters {
+    min-height: 220px;
+}
+
+.img-fluid {
+    object-position: center;
+    object-fit: cover;
+    min-height: 220px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    color: white;
+    margin: 24px 0px;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
