@@ -1,6 +1,6 @@
 # Rick and Morty
 
-Projeto simples consumindo api do rick and morty utilizando HTML e CSS e o fetch do JavaScript,
+![print](https://github.com/MatheusPrudente/rick-and-morty/assets/80559882/beb29612-8876-4618-b904-06c74e08307f)
 
 
 # Links: 
